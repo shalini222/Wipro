@@ -14,6 +14,9 @@ using namespace std;
 
 int main()
 {
+    
+int main()
+{
     string s1;
     cin>>s1;
     
@@ -36,9 +39,11 @@ int main()
          for(int j = 0; j<n2; j++){
              if(s1[i] != s2[j]){
                  ans = s1[i];
+                 break;
              }
          }
     }
     
     cout<<ans<<endl;
+}
 }
